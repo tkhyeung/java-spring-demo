@@ -1,0 +1,23 @@
+spring:
+  test:
+    bean:
+      beanImpl2
+
+#list in yml
+  connections:
+    - connection:
+      name: bean1
+      username: amber
+      password: my_awesome_pw1
+      url: abc.server.com
+      port: 33
+    - connection:
+      name: bean2
+      username: blueblue
+      password: my_awesome_pw2
+      url: bcd.server.com
+
+
+
+
+

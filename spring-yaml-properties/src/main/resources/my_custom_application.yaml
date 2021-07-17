@@ -1,0 +1,16 @@
+abc:
+  value: 123
+
+bcd:
+  value: 999
+
+cde:
+  - bean:
+      name: bean1
+      value: valueOfBean1
+  - bean:
+      name: bean2
+      value: valueOfBean2
+  - bean:
+      name: bean2
+      value: valueOfBean2
