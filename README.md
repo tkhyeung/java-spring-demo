@@ -10,7 +10,7 @@ It covers
 * Post-Processors
 * YAML manipulation
 * Swagger
-* Http access (Rest template + WebClient)
+* Http access (Rest template + WebClient + OpenFeign)
 * Stream Api
 * Spring Data Jpa, Spring data rest
 * Spring Jpa
