@@ -51,6 +51,7 @@
         <module>spring-quartz</module>
         <module>spring-state-machine</module>
         <module>spring-async-future</module>
+        <module>spring-validation</module>
     </modules>
 
 </project>
