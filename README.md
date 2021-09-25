@@ -20,3 +20,4 @@ It covers
 * Spring Validation
 * @Async with CompletableFuture
 * XSD&WSDL to Java class
+* Auto generate java class (using in response) from json
