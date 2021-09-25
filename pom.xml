@@ -53,6 +53,7 @@
         <module>spring-async-future</module>
 		<module>spring-batch</module>
         <module>spring-validation</module>
-    </modules>
+		<module>wsdl-xsd-to-java</module>
+	</modules>
 
 </project>

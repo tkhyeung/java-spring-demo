@@ -16,3 +16,4 @@ It covers
 * Spring Jpa
 * Quartz
 * Spring state machine 
+* XSD&WSDL to Java class
