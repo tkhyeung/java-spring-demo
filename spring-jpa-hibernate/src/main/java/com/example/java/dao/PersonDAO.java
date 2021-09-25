@@ -14,7 +14,4 @@ public interface PersonDAO {
 
     public long count();
 
-    public Person findByIdWithAddress(long id);
-
-    public void delete(long id);
 }
