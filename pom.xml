@@ -54,6 +54,7 @@
 		<module>spring-batch</module>
         <module>spring-validation</module>
 		<module>wsdl-xsd-to-java</module>
+		<module>jsonschema2pojo-autogen-response</module>
 	</modules>
 
 </project>
