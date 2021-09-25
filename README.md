@@ -9,11 +9,14 @@ It covers
 * Custom annotation
 * Post-Processors
 * YAML manipulation
-* Swagger
+* Swagger (configuration and annotation describing the api)
 * Http access (Rest template + WebClient + OpenFeign)
 * Stream Api
 * Spring Data Jpa, Spring data rest
 * Spring Jpa
 * Quartz
 * Spring state machine 
+* Spring Batch
+* Spring Validation
+* @Async with CompletableFuture
 * XSD&WSDL to Java class
