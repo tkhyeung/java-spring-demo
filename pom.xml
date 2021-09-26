@@ -55,6 +55,7 @@
         <module>spring-validation</module>
 		<module>wsdl-xsd-to-java</module>
 		<module>jsonschema2pojo-autogen-response</module>
-	</modules>
+        <module>spring-security-custom-filter-auth-by-token</module>
+    </modules>
 
 </project>
