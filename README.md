@@ -22,3 +22,4 @@ It covers
 * XSD&WSDL to Java class
 * Auto generate java class (using in response) from json
 * Spring Security securing endpoints with token by custom filter 
+* Spring @RestControllerAdvice for global exception handling with custom application exception
