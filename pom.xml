@@ -57,6 +57,7 @@
 		<module>jsonschema2pojo-autogen-response</module>
         <module>spring-security-custom-filter-auth-by-token</module>
         <module>spring-restcontrolleradvice</module>
+        <module>spring-custom-datasource-with-jpa</module>
     </modules>
 
 </project>
