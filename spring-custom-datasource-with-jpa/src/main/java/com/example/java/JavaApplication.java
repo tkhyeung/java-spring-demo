@@ -8,7 +8,6 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.context.annotation.PropertySources;
 import org.springframework.core.env.ConfigurableEnvironment;
@@ -19,6 +18,7 @@ import javax.sql.DataSource;
 /*
     - Custom datasource based on profile
     - Build jpa repository, entity manager, transaction manager and datasource at runtime
+    - Test ConfigurationProperties
  */
 @Slf4j
 @SpringBootApplication
@@ -27,7 +27,7 @@ import javax.sql.DataSource;
         @PropertySource("classpath:application-avengers.properties"),
         @PropertySource("classpath:application.properties")
 })
-@ComponentScan(basePackages = {"com.example.java"})
+//@ComponentScan(basePackages = {"com.example.java"})
 public class JavaApplication implements CommandLineRunner {
 
     private static String PROFILE_NAME = "--spring.profiles.active=";
@@ -56,6 +56,9 @@ public class JavaApplication implements CommandLineRunner {
     @Autowired
     HumanRepository repository;
 
+    @Autowired
+    ConfigurationPropertiesTestClass configurationPropertiesTestClass;
+
     @Override
     public void run(String... args) throws Exception {
         log.info("profile property:{}", profile);
@@ -64,5 +67,7 @@ public class JavaApplication implements CommandLineRunner {
         log.info("Datasource is {}", dataSource);
         repository.save(HumanEntity.builder().name("Dane").age(27).build());
         repository.findAll().forEach(e -> log.info("human:{}", e));
+        log.info("test configurationproperty list: {}", configurationPropertiesTestClass.getList());
+        log.info("test configurationproperty same: {}", configurationPropertiesTestClass.getSame());
     }
 }
