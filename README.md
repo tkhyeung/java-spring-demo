@@ -23,4 +23,5 @@ It covers
 * Auto generate java class (using in response) from json
 * Spring Security securing endpoints with token by custom filter 
 * Spring @RestControllerAdvice for global exception handling with custom application exception
-* Create datasource manually based on profile 
+* Create datasource manually based on profile and use @ConfigurationProperties
+* Spring cache
