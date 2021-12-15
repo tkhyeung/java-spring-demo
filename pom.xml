@@ -59,6 +59,7 @@
         <module>spring-restcontrolleradvice</module>
         <module>spring-custom-datasource-with-jpa</module>
         <module>spring-cache</module>
+        <module>spring-circuitbreaker</module>
     </modules>
 
 </project>
