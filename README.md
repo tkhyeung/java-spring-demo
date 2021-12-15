@@ -10,7 +10,7 @@ It covers
 * Post-Processors
 * YAML manipulation
 * Swagger (configuration and annotation describing the api)
-* Http access (Rest template + WebClient + OpenFeign)
+* Http access (Rest template + WebClient (with logging outgoing request response) + OpenFeign)
 * Stream Api
 * Spring Data Jpa, Spring data rest
 * Spring Jpa
@@ -25,3 +25,4 @@ It covers
 * Spring @RestControllerAdvice for global exception handling with custom application exception
 * Create datasource manually based on profile and use @ConfigurationProperties
 * Spring cache
+* Circuit breaker pattern using resilience4j with annotations
