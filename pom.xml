@@ -60,6 +60,7 @@
         <module>spring-custom-datasource-with-jpa</module>
         <module>spring-cache</module>
         <module>spring-circuitbreaker</module>
+        <module>mockito-test</module>
     </modules>
 
 </project>
