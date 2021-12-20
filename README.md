@@ -26,3 +26,4 @@ It covers
 * Create datasource manually based on profile and use @ConfigurationProperties
 * Spring cache
 * Circuit breaker pattern using resilience4j with annotations
+* Mockito Unit test
