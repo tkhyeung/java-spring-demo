@@ -27,3 +27,4 @@ It covers
 * Spring cache
 * Circuit breaker pattern using resilience4j with annotations
 * Mockito Unit test
+* Spring websocket

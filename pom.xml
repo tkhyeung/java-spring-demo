@@ -61,6 +61,7 @@
         <module>spring-cache</module>
         <module>spring-circuitbreaker</module>
         <module>mockito-test</module>
+        <module>spring-websocket</module>
     </modules>
 
 </project>
